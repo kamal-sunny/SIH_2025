@@ -1,0 +1,21 @@
+version: "3.1"
+stories:
+- story: greet path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: fee deadline path
+  steps:
+  - intent: fee_deadline
+  - action: utter_fee_deadline
+
+- story: scholarship form path
+  steps:
+  - intent: scholarship_form
+  - action: utter_scholarship_form
+
+- story: principal info path
+  steps:
+  - intent: principal_info
+  - action: utter_principal_info

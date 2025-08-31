@@ -1,0 +1,32 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - namaste
+    - namaskar
+
+- intent: fee_deadline
+  examples: |
+    - What is the fee deadline?
+    - When is the last date to pay fees?
+    - Fees kab dena hai?
+    - fee payment last date?
+    - final day to submit fee?
+
+- intent: scholarship_form
+  examples: |
+    - When to submit scholarship form?
+    - scholarship form kab milega?
+    - scholarship deadline?
+    - last date for scholarship submission?
+    - how to apply for scholarship?
+
+- intent: principal_info
+  examples: |
+    - Who is the principal?
+    - principal kaun hai?
+    - name of principal?
+    - who is head of the college?
